@@ -4,6 +4,7 @@
   "description": "crud application",
   "main": "server.js",
   "scripts": {
+    "dev": "heroku git:remote -a crud-operations817",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
